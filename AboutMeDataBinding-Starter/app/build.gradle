@@ -20,8 +20,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    // Enable data binding here.
-}
+    dataBinding {
+        enabled = true
+    }}
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
